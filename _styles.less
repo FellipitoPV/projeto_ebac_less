@@ -1,0 +1,20 @@
+// _styles.less
+body {
+    font-size: @font-size-base;
+    color: @primary-color;
+  }
+  
+  .social-icons {
+    .flex-center();
+    
+    a {
+      width: 30px;
+      height: 30px;
+      margin: 0 10px;
+      
+      &.github { .icon(@icon-github); }
+      &.instagram { .icon(@icon-instagram); }
+      &.linkedin { .icon(@icon-linkedin); }
+      &.mail { .icon(@icon-mail); }
+    }
+  }
